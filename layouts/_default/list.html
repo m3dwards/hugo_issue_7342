@@ -1,0 +1,9 @@
+{{ .Content }}
+
+<h3>Blog posts</h3>
+
+{{ range .Pages }}
+
+    <a href="{{ .RelPermalink }} ">{{ .Title }}</a>
+    <br>
+{{ end }}

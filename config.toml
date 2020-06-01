@@ -1,0 +1,16 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+[outputFormats]
+  [outputFormats.AppFormat]
+    name = "app"
+    isPlainText = false
+    mediaType = "text/html"
+    isHTML = true
+    permalinkable = true
+    path = "app"
+
+[outputs]
+  section = ["HTML", "APP"]
+  page = ["HTML", "APP"]
